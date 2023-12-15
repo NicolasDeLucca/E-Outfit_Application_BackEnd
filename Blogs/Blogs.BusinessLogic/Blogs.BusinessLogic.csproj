@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blogs.Domain\Blogs.Domain.csproj" />
+    <ProjectReference Include="..\Blogs.Exception\Blogs.Exception.csproj" />
+    <ProjectReference Include="..\Blogs.Interfaces\Blogs.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
